@@ -2,10 +2,11 @@
 <html>
 
 <head>
-  <title>Caravan - Local </title>
+  <title>Caravan - Paris </title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
@@ -15,7 +16,8 @@
 <body>
 
   <!-- Modal -->
-  <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitulo" aria-hidden="true">
+  <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitulo"
+    aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -28,11 +30,11 @@
           <form>
             <div class="form-group">
               <label for="loginEmail">Email</label>
-              <input type="email" class="form-control" id="loginEmail">
+              <input type="email" class="form-control" id="loginEmail" required>
             </div>
             <div class="form-group">
               <label for="loginSenha">Senha</label>
-              <input type="password" class="form-control" id="loginSenha">
+              <input type="password" class="form-control" id="loginSenha" required>
             </div>
             <button type="submit" class="btn btn-primary">Entrar na Conta</button>
             <small class="form-text text-muted">Esqueceu a senha? <a href="#">Clique aqui</a>.</small>
@@ -47,64 +49,56 @@
     <a href="index.html" class="navbar-brand">
       <img src="img/caravan.svg" alt="Caravan">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-
-    <div class=" collapse navbar-collapse" id="navbarSupportedContent"></div>
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false" href=" planos.html">Locais</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="local.html">California</a>
-          <a class="dropdown-item" href="local.html">Paris</a>
-          <a class="dropdown-item" href="local.html">Dublin</a>
-        </div>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="planos.html">Planos</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="contato.html">Contato</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="btn btn-outline-primary ml-md-2" href="inscricao.html">Inscreva-se</a>
-      </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Locais</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="california.html">California</a>
+            <a class="dropdown-item" href="paris.html">Paris</a>
+            <a class="dropdown-item" href="dublin.html">Dublin</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="planos.html">Planos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary ml-md-2" href="inscricao.html">Inscreva-se</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
   <section class="container">
     <div class="text-center my-5">
       <span class="h6 d-block">O MELHOR DESTINO DA SUA VIAGEM</span>
-      <h1 class="display-4 text-primary">Descubra Dublin</h1>
+      <h1 class="display-4 text-primary">Descubra Paris</h1>
     </div>
     <div class="row">
       <div class="col-md">
-        <img class="img-fluid mb-4" src="img/local/foto-1.jpg" alt="Foto 1">
-        <img class="img-fluid mb-4" src="img/local/foto-2.jpg" alt="Foto 2">
-        <img class="img-fluid mb-4 " src="img/local/foto-3.jpg" alt="Foto 3">
+        <img class="img-fluid mb-4" src="img/local/Paris/paris-3.jpg" alt="Foto de Paris 3">
+        <img class="img-fluid mb-4" src="img/local/Paris/paris-6.jpg" alt="Foto de Paris 6">
+        <img class="img-fluid mb-4" src="img/local/Paris/paris-2.jpg" alt="Foto de Paris 2">
       </div>
-
       <div class="col-md">
-        <img class="img-fluid mb-4" src="img/local/foto-4.jpg" alt="Foto 4">
-        <img class="img-fluid mb-4" src="img/local/foto-5.jpg" alt="Foto 5">
-
+        <img class="img-fluid mb-4" src="img/local/Paris/paris-8.jpg" alt="Foto de Paris 8">
+        <img class="img-fluid mb-4" src="img/local/Paris/paris-7.jpg" alt="Foto de Paris 7">
       </div>
-
       <div class="col-md">
-        <img class="img-fluid mb-4" src="img/local/foto-6.jpg" alt="Foto 6">
-        <img class="img-fluid mb-4" src="img/local/foto-7.jpg" alt="Foto 7">
-
+        <img class="img-fluid mb-4" src="img/local/Paris/paris-5.jpg" alt="Foto de Paris 5">
+        <img class="img-fluid mb-4" src="img/local/Paris/paris-1.jpg" alt="Foto de Paris 1">
       </div>
     </div>
   </section>
@@ -114,7 +108,7 @@
       <span class="h6 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
       <h2 class="display-4 text-primary">Próximos Eventos</h2>
     </div>
-    <table class="table table-hover table-reponsive-md">
+    <table class="table table-hover table-responsive-md">
       <thead>
         <tr>
           <th scope="col">Data</th>
@@ -130,21 +124,18 @@
           <td>The Academy</td>
           <td> <a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
         </tr>
-
         <tr>
           <th scope="row">20/10</th>
           <td>João Silva</td>
-          <td> Teatro Municipal</td>
+          <td>Teatro Municipal</td>
           <td> <a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
         </tr>
-
         <tr>
           <th scope="row">15/10</th>
           <td>Maria Oliveira</td>
           <td>Casa de Shows XYZ</td>
           <td> <a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a></td>
         </tr>
-
         <tr>
           <th scope="row">12/10</th>
           <td>Pedro Santos</td>
@@ -166,47 +157,41 @@
             <li><a href="inscricao.html">Inscreva-se</a></li>
           </ul>
         </div>
-
         <div class="col-md-3 col-6">
           <h4 class="h6">LOCAIS</h4>
           <ul class="list-unstyled">
-            <li><a href="local.html">California</a></li>
-            <li><a href="local.html">Paris</a></li>
-            <li><a href="local.html">Dublin</a></li>
+            <li><a href="california.html">California</a></li>
+            <li><a href="paris.html">Paris</a></li>
+            <li><a href="dublin.html">Dublin</a></li>
           </ul>
         </div>
-
         <div class="col-md-4">
           <h4 class="h6">DADOS DE CONTATO</h4>
           <ul class="list-unstyled text-secondary">
-            <li><a>caravan@caravan.com.br</a></li>
-            <li><a>21 99999-9999</a></li>
+            <li><a href="mailto:caravan@caravan.com.br">caravan@caravan.com.br</a></li>
+            <li><a href="tel:+5521999999999">21 99999-9999</a></li>
             <li><a>De Seg. à Sex. das 8h às 18h</a></li>
           </ul>
         </div>
-
         <div class="col-md-2">
           <h4 class="h6">REDES SOCIAIS</h4>
           <ul class="list-unstyled">
             <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#"
                 style="max-width: 140px">LinkedIn</a></li>
             <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#"
-                style="max-width: 140px">Instagram</a>
-            </li>
+                style="max-width: 140px">Instagram</a></li>
             <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#"
-                style="max-width: 140px">Whatsapp</a>
-            </li>
+                style="max-width: 140px">Whatsapp</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="bg-primary text-center py-3">
       <p class="mb-0">
-        Caravan © 2017.Todos os direitos reservados.
+        Caravan © 2017. Todos os direitos reservados.
       </p>
     </div>
   </footer>
-
 
   <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>
